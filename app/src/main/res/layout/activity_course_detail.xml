@@ -1,0 +1,160 @@
+<!-- activity_course_details.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/picture1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Logo Image -->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="197dp"
+            android:layout_height="143dp"
+            android:layout_gravity="center"
+            android:contentDescription="Logo"
+            android:src="@drawable/picture2" />
+
+        <!-- Course Details Start -->
+
+        <!-- First Aid -->
+        <TextView
+            android:id="@+id/firstAidTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:text="First Aid"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/firstAidDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:text="Fees: R1500\nPurpose: To provide first aid awareness and basic life support\nContent:\n• Wounds and bleeding\n• Burns and fractures\n• Emergency scene management\n• Cardio-Pulmonary Resuscitation (CPR)\n• Respiratory distress e.g., Choking, blocked airway"
+            android:textSize="16sp" />
+
+        <!-- Sewing -->
+        <TextView
+            android:id="@+id/sewingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:text="Sewing"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sewingDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:text="Fees: R1500\nPurpose: To provide alterations and new garment tailoring services\nContent:\n• Types of stitches\n• Threading a sewing machine\n• Sewing buttons, zips, hems and seams\n• Alterations\n• Designing and sewing new garments"
+            android:textSize="16sp" />
+
+        <!-- Landscaping -->
+        <TextView
+            android:id="@+id/landscapingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:text="Landscaping"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/landscapingDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:text="Fees: R1500\nPurpose: To provide landscaping services for new and established gardens\nContent:\n• Indigenous and exotic plants and trees\n• Fixed structures (fountains, statues, benches, tables, built-in braai)\n• Balancing of plants and trees in a garden\n• Aesthetics of plant shapes and colours\n• Garden layout"
+            android:textSize="16sp" />
+
+        <!-- Life Skills -->
+        <TextView
+            android:id="@+id/lifeSkillTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:text="Life Skills"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lifeDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:text="Fees: R1500\nPurpose: To provide skills to navigate basic life necessities\nContent:\n• Opening a bank account\n• Basic labour law (know your rights)\n• Basic reading and writing literacy\n• Basic numeric literacy"
+            android:textSize="16sp" />
+
+        <!-- Child Minding -->
+        <TextView
+            android:id="@+id/childMindingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:text="Child Minding"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/childMindingDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:text="Fees: R750\nPurpose: To provide basic child and baby care\nContent:\n• Birth to six-month-old baby needs\n• Seven-month to one-year-old needs\n• Toddler needs\n• Educational toys"
+            android:textSize="16sp" />
+
+        <!-- Cooking -->
+        <TextView
+            android:id="@+id/cookingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:text="Cooking"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cookingDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:text="Fees: R750\nPurpose: To prepare and cook nutritious family meals\nContent:\n• Nutritional requirements for a healthy body\n• Types of protein, carbohydrates, and vegetables\n• Planning meals\n• Preparation and cooking of meals"
+            android:textSize="16sp" />
+
+        <!-- Garden Maintenance -->
+        <TextView
+            android:id="@+id/gardenMaintenanceTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:text="Garden Maintenance"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/gardenMaintenanceDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:text="Fees: R750\nPurpose: To provide basic knowledge of watering, pruning, and planting in a domestic garden\nContent:\n• Water restrictions and the watering requirements of indigenous and exotic plants\n• Pruning and propagation of plants\n• Planting techniques for different plant types"
+            android:textSize="16sp" />
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/backButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:text="Back" />
+    </LinearLayout>
+</ScrollView>
